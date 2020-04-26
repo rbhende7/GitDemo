@@ -1,0 +1,18 @@
+https://github.com/rbhende7/GitDemo.git
+
+echo "# GitDemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rbhende7/GitDemo.git
+git push -u origin master
+
+rbhende7:Savita!23
+
+GIT Basic Commands
+
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+git init
+
+git add filedir - add to staging.
