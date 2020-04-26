@@ -16,3 +16,9 @@ https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.ht
 git init
 
 git add filedir - add to staging.
+
+git commit -m "GIT Commit" - add to commit
+
+git remote add origin https://github.com/rbhende7/GitDemo.git
+
+git push origin master
