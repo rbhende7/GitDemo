@@ -22,3 +22,7 @@ git commit -m "GIT Commit" - add to commit
 git remote add origin https://github.com/rbhende7/GitDemo.git
 
 git push origin master
+
+>git checkout -b develop - switch to develop branch.
+
+git branch  - lists all the branches.
