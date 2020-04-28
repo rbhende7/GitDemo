@@ -9,14 +9,18 @@ public class StepDefinition {
 	@Given("^Initialize the browser with chrome$")
 	public void initialize_the_browser_with_chrome() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("STARTING TEST WITH MAVEN-GIT");
+		String EnvType1 = System.getProperty("EnvType1");
+		System.out.println("NEW EnvType1=" + EnvType1);
+		System.out.println(EnvType1 + "-STARTING TEST WITH MAVEN-GIT");
 	    
 	}
 
 	@Given("^Navigate to \"([^\"]*)\" site$")
 	public void navigate_to_site(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("STARTING TEST WITH MAVEN-GIT");
+		String EnvType2 = System.getProperty("EnvType2");
+		System.out.println("NEW EnvType2=" + EnvType2);
+		System.out.println(EnvType2 + "-STARTING TEST WITH MAVEN-GIT");
 	    
 	}
 
